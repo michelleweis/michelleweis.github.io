@@ -1,0 +1,109 @@
+body{
+    font-family: "Sacramento", cursive;
+    background-image:url(birdsbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    color:black;
+    width:10%;
+    position:relative;
+    top: 15px;
+    left:0px;
+}
+
+.container{
+    z-index:2;
+}
+
+nav{
+    float:center;
+    z-index:10;
+}
+
+nav a:hover{
+    color:darkturquoise;
+}
+
+
+nav li{
+    color:black;
+    display:inline-block;
+    
+    position: relative;
+}
+
+nav a{
+    color:black;
+    text-decoration-line: none;
+    font-family: "Sacramento";
+    font-size: 2em;
+}
+
+#friends{
+    transform:translateX(60%) translateY(0%)
+}
+
+#friendsp{
+    color:black;
+    position:absolute;
+    max-width: 42%;
+    transform: translateX(-50%)translateY(-190%);
+    z-index:3;
+}
+
+#hockey{
+    position:relative;
+    transform:translateX(25%)translateY(-10%);
+}
+
+#hockeyp{
+    color:black;
+    position:absolute;
+    max-width: 67%;
+    transform: translateX(-50%)translateY(-330%);
+    z-index:3;
+}
+
+#denmark{
+    margin-left: 25px;
+}
+
+#dogs{
+    margin-left: 200px;
+}
+
+#dogsp{
+    color:black;
+    position:absolute;
+    max-width: 67%;
+    transform: translateX(-50%)translateY(-190%);
+    z-index:3;
+}
+
+h1{
+    color:black;
+    font-family: "Sacramento",cursive;
+    text-align: center;
+    font-size: 5em;
+    margin:15px;
+    position: relative;
+    transform: translateY(-180%) translateX(50%);
+    z-index:1;
+    width:50%;
+}
+
+p{
+    color:black;
+    font-family: "Sacramento", cursive;
+    font-size: 2em;
+    text-align:left;
+    text-indent: 130px;
+    max-width: 50%;
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 2;
+}
